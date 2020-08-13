@@ -1,5 +1,7 @@
 # AssociatedValues
 
+![Tests](https://github.com/paulofaria/AssociatedValues/workflows/Tests/badge.svg)
+
 `AssociatedValues` allows you to easily add stored properties in class extensions:
 ```swift
 extension UIView {
