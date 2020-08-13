@@ -20,16 +20,17 @@ Enjoy!
 
 ## Installation
 
-`AssociatedValues` is available through [CocoaPods](http://cocoapods.org). To install, simply include the following lines in your podfile:
-```ruby
-use_frameworks!
-pod 'AssociatedValues'
+### Swift Package Manager
+You can build `AssociatedValues` using the [Swift Package Manager](https://github.com/apple/swift-package-manager). Just include `AssociatedValues` as a package in your dependencies:
+
+```swift
+.package(url: "https://github.com/paulofaria/AssociatedValues.git", .upToNextMajor(from: "6.0.0")),
 ```
+
 Be sure to import the module at the top of your .swift files:
 ```swift
 import AssociatedValues
 ```
-Alternatively, clone this repo or download it as a zip and include the classes in your project.
 
 ## Author
 
